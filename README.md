@@ -19,7 +19,7 @@ Each script corresponds to a specific part of the paper :
 - **HNSCC_data_analysis.R** : R script use to re-analyze the Head and Neck Squamous Cell Carcinoma from Puram et al. using Pagoda2 pipeline.
 - **Visualize_Image_analysis.R** : R script that gathers results of image analysis performed by *Matlab* and create the figures used in the paper.
 - **Microscopy_Image_analysis_main.m** : Matlab script that performs co-localisation analysis between STAT1-GFP and nuclear mCherry signal both for in-vitro and intra-vital images shown in the main figures. A detailed description of the image processing pipeline is available in as a supplementary figure of the paper. 
-- **Microscopy_Image_analysis_sup.m** : Matlab script that performs co-localisation analysis between STAT1-GFP and nuclear mCherry signal both for in-vitro and intra-vital images shown in supplementary figures.
+- **Microscopy_Image_analysis_sup.m** : Matlab script that performs co-localisation analysis between STAT1-GFP and nuclear mCherry signal for intra-vital images shown in supplementary figures.
 - **LoadImage.m** : Basic Matlab script that loads multiple-stack .tiff files into Matlab.
 - **Pre_processing.m** : Basic Matlab script used to clean images before the analysis (background removal, intensity adjustment).
 - **Nuclei_identification.m** : Matlab script used to segment cells through image binarisation and watershed transform.
