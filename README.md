@@ -16,7 +16,7 @@ Concerning the *Matlab®* scripts, please use at least *Matlab* 2017 and have th
 Each script corresponds to a specific part of the paper :
 
 - **Melanoma_data_analysis.R** : R script used to re-analyze the melanoma MARS-seq data from Li et al. using Pagoda2 pipeline.
-- **HNSCC_data_analysis.R** : R script use to re-analuze the Head and Neck Squamous Cell Carcinoma from Puram et al. using Pagoda2 pipeline.
+- **HNSCC_data_analysis.R** : R script use to re-analyze the Head and Neck Squamous Cell Carcinoma from Puram et al. using Pagoda2 pipeline.
 - **Visualize_Image_analysis.R** : R script that gathers results of image analysis performed by *Matlab* and create the figures used in the paper.
 - **Microscopy_Image_analysis_main.m** : Matlab script that performs co-localisation analysis between STAT1-GFP and nuclear mCherry signal both for in-vitro and intra-vital images shown in the main figures. A detailed description of the image processing pipeline is available in as a supplementary figure of the paper. 
 - **Microscopy_Image_analysis_syp.m** : Matlab script that performs co-localisation analysis between STAT1-GFP and nuclear mCherry signal both for in-vitro and intra-vital images shown in supplementary figures.
