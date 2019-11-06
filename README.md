@@ -1,5 +1,5 @@
 # IFNγ cancer project
-R and Matlab code used for the analysis performed in the paper "Bystander IFN- γ activity promotes widespread and sustained cytokine signaling altering the tumor microenvironment".
+R and Matlab code used for the analysis performed in the paper "Bystander IFNγ activity promotes widespread and sustained cytokine signaling altering the tumor microenvironment".
 
 ### Recommendations
 
@@ -9,12 +9,15 @@ Before running any of the *R* scripts please install the following R libraries :
 - **uwot** (https://github.com/jlmelville/uwot)
 - **igraph** (https://igraph.org/r/)
 - **ggplot2** (https://ggplot2.tidyverse.org)
+- **DESeq2** (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
+- **FactoMineR** (https://cran.r-project.org/web/packages/FactoMineR/index.html)
 
 Concerning the *Matlab®* scripts, please use at least *Matlab* 2017 and have the **Image Processing Toolbox** available.
 
 ### List of the scripts
 Each script corresponds to a specific part of the paper :
 
+- **In_vitro_RNAseq_analysis.R** : R script used to analyze the RNAseq data generated from B cell lymphoma cell line stimulated by IFNγ during various time.
 - **Melanoma_data_analysis.R** : R script used to re-analyze the melanoma MARS-seq data from Li et al. using Pagoda2 pipeline.
 - **HNSCC_data_analysis.R** : R script use to re-analyze the Head and Neck Squamous Cell Carcinoma from Puram et al. using Pagoda2 pipeline.
 - **Visualize_Image_analysis.R** : R script that gathers results of image analysis performed by *Matlab* and create the figures used in the paper.
