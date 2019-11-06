@@ -11,6 +11,7 @@ Before running any of the *R* scripts please install the following R libraries :
 - **ggplot2** (https://ggplot2.tidyverse.org)
 - **DESeq2** (https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
 - **FactoMineR** (https://cran.r-project.org/web/packages/FactoMineR/index.html)
+- **pheatmap** (https://cran.r-project.org/web/packages/pheatmap/index.html)
 
 Concerning the *Matlab®* scripts, please use at least *Matlab* 2017 and have the **Image Processing Toolbox** available.
 
