@@ -1,5 +1,5 @@
 # IFNγ cancer project
-R and Matlab code used for the analysis performed in the paper "Bystander IFNγ activity promotes widespread and sustained cytokine signaling altering the tumor microenvironment".
+R and Matlab codes used for the analysis performed in the paper "Bystander IFNγ activity promotes widespread and sustained cytokine signaling altering the tumor microenvironment".
 
 ### Recommendations
 
